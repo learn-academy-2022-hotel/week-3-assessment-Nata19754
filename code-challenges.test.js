@@ -38,7 +38,10 @@ expect (greaterThan2(fibLength2)).toEqual([1, 1, 2, 3, 5, 8, 13, 21, 34, 55])
 //Input: number larger than 2 representing the desired length
 //Output: array that desired length containing the numbers of the Fibonacci sequence
 //create a function called greaterThan2
-//create for loop to loop through array an
+//create variable called fib that equals the start of the sequence
+//create for loop to loop through array that will output an array of the fibonacci sequence
+//return the new array
+//callback function
 
 
 const fibLength1 = 6
@@ -107,6 +110,7 @@ expect (sortNumbers(studyMinutesWeek2)).toEqual([10, 15, 20, 45, 60, 65, 100])
 //create function called sortNumbers
 //use the object.value method to have an array returned of the given objects with a condition applied to it
 //sort the array and have it return the numbers in the array sorted from least to greatest
+//call back function
 
 const studyMinutesWeek1 = {
   sunday: 90,
@@ -185,12 +189,14 @@ describe("accumulate" , () => {
 // b) Create the function that makes the test pass.
 
 //PSEUDOCODE:
+//input: number
+//output: array of number of the fibonacci sequence
 //create a function called accumulate
 //create variable for running total named total
 //create variable result to be an array
 //create for loop to loop throught array that will take total and add to total the value of that index
 //use .push to 
-//call back function to see
+//call back function 
 
 const accountTransactions1 = [100, -17, -23, -9]
 // Expected output: [100, 83, 60, 51]
